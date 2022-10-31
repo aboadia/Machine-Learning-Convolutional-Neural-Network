@@ -36,7 +36,6 @@ ANSWER: The learning rate controls how qucikly the model adapts to the problem. 
 0.01 which produced an accuracy of 10%
 0.02 which also produced an accuracy of 10%
 0.1 which interestingly produced an accuracy of 10%
-
 I cannot conclude on which learning rate performed the best because they all gave the same accuracy levels. 
 
 
@@ -52,13 +51,17 @@ I found it surprising my models produced the same accuracy regardless of the bat
 3. Try different hyperparameters to obtain the best accuracy on the test set. What is your
 best performance and what were the hyperparameters?
 
+ANSWER: I changed the epochs as well since it is also a hyperparameter using epoch of 10, 12 and 25 and still had an accuracy of 10%.
 
 
 4. Implement an equivalent feed forward network for the same task with each hidden layer
 containing the same number of neurons as the number of filters in each convolution layer. Use the ‘Adam’ optimizer to train your network on the CIFAR-10 dataset for a fixed set of 25 epochs. Compare its performance with your LeNet implementation based on the following questions:
 a. What is its performance?
+
+ANSWER: The feed forward network produced the same accuracy as with the LeNet CNN model I built in previous question. 
+
 b. How many parameters are there in this network compared to the LeNet
-[Question 3]
-[10 points]
 implementation? Are they worth it?
+
+ANSWER: There are 62,006 parameters compared to 10 parameters in the LeNet model. It was not worth building the feedforward network because they all produced the same results. 
 
