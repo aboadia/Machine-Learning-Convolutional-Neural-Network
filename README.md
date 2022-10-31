@@ -31,14 +31,17 @@ The output when you apply a max-pooling operation on the output from number 2 is
 ### Implementing LENET CNN
 
 1. What is the effect of learning rate on the training process? Which performed best?
-The learning rate controls how qucikly the model adapts to the problem. I tried three different learning rates:
+
+ANSWER: The learning rate controls how qucikly the model adapts to the problem. I tried three different learning rates:
 0.01 which produced an accuracy of 10%
 0.02 which also produced an accuracy of 10%
 0.1 which interestingly produced an accuracy of 10%
 
 
-3. What is the effect of batch size on the training process? Which performed best?
-4. Try different hyperparameters to obtain the best accuracy on the test set. What is your
+2. What is the effect of batch size on the training process? Which performed best?
+
+
+5. Try different hyperparameters to obtain the best accuracy on the test set. What is your
 best performance and what were the hyperparameters?
 4. Implement an equivalent feed forward network for the same task with each hidden layer
 containing the same number of neurons as the number of filters in each convolution layer. Use the ‘Adam’ optimizer to train your network on the CIFAR-10 dataset for a fixed set of 25 epochs. Compare its performance with your LeNet implementation based on the following questions:
