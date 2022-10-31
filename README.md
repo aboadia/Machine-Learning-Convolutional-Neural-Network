@@ -71,6 +71,7 @@ ANSWER: There are 62,006 parameters compared to 10 parameters in the LeNet model
 1. A regular CNN where the number of filters in each layer increases as the depth of the network grows i.e., the Lth layer will have more filters than the (L-1)th layer.
 
 ANSWER: 
+
 ![Screen Shot 2022-10-31 at 12 46 16 PM](https://user-images.githubusercontent.com/89150972/199074590-a1c039a4-40ed-4eaa-b6d9-23e111f353dd.png)
 
 The image above shows the regular CNN I built, I built this cnn firstly using:
@@ -98,6 +99,7 @@ this produced an accuracy of 11.35%
 
 2. An inverted CNN where the number of filters in each layer decreases as the depth of the network grows i.e., the Lth layer will have less filters than the (L-1)th layer.
 ANSWER:
+
 ![Screen Shot 2022-10-31 at 12 51 35 PM](https://user-images.githubusercontent.com/89150972/199075588-41ba06a7-15c7-4556-89a8-a8de71ca7f84.png)
 
 The image above shows the inverted CNN I built, I built this cnn firstly using:
@@ -124,6 +126,7 @@ this produced an accuracy of 11.35%
 3. An hour-glass shaped CNN where the number of filters will increase till the Lth layer and reduce afterwards.
 
 ANSWER:
+
 ![Screen Shot 2022-10-31 at 12 56 26 PM](https://user-images.githubusercontent.com/89150972/199076525-58a254fb-6342-443e-9878-257a9970e576.png)
 
 The image above shows the hour-glass shaped CNN I built, I built this cnn firstly using:
@@ -147,3 +150,5 @@ batch_size = 85
 epoch = 12
 this produced an accuracy of 11.35%
 
+
+I found it interesting my accuracy was the same regardless of changes in hyperparameters.
