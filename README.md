@@ -17,6 +17,14 @@ The output when you apply a max-pooling operation on the output from number 2 is
 
 ![Screen Shot 2022-10-31 at 10 30 53 AM](https://user-images.githubusercontent.com/89150972/199070901-af49361a-36c8-4535-996d-bd0b24f40f5e.png)
 
+### Documentation or code used in finding numbers 2 and 3:
+
+![Screen Shot 2022-10-31 at 12 29 28 PM](https://user-images.githubusercontent.com/89150972/199071387-50512444-f1d9-4dcd-ab56-58d69466d101.png)
+
+
+
+![Screen Shot 2022-10-31 at 12 29 35 PM](https://user-images.githubusercontent.com/89150972/199071460-0b6e9503-bb6d-47a1-a3ce-4c6694eb7756.png)
+
 
 
 
