@@ -97,7 +97,7 @@ this produced an accuracy of 11.35%
 
 
 2. An inverted CNN where the number of filters in each layer decreases as the depth of the network grows i.e., the Lth layer will have less filters than the (L-1)th layer.
-
+ANSWER:
 ![Screen Shot 2022-10-31 at 12 51 35 PM](https://user-images.githubusercontent.com/89150972/199075588-41ba06a7-15c7-4556-89a8-a8de71ca7f84.png)
 
 The image above shows the inverted CNN I built, I built this cnn firstly using:
@@ -112,7 +112,7 @@ Optimizer: SDG
 lrate= 0.1
 batch_size = 90
 epoch = 10
-this produced an accuracy of 98.33%
+this produced an accuracy of 11.35%
 
 Finally, 
 Optimizer: RMSprop
@@ -121,5 +121,29 @@ batch_size = 110
 epoch = 9
 this produced an accuracy of 11.35%
 
-4. An hour-glass shaped CNN where the number of filters will increase till the Lth layer and reduce afterwards.
-Your goal is to design these networks and optimize them to their best performance by choosing the right hyperparameters for each network, such as the learning rate, batch size and the choice of optimizer (‘SGD’, ‘adam’, ‘RMSProp’). You must provide a detailed report of what values you tried for each hyperparameters, your observations on why the network performed well (or not) and the final accuracy for each network on the MNIST dataset.
+3. An hour-glass shaped CNN where the number of filters will increase till the Lth layer and reduce afterwards.
+
+ANSWER:
+![Screen Shot 2022-10-31 at 12 56 26 PM](https://user-images.githubusercontent.com/89150972/199076525-58a254fb-6342-443e-9878-257a9970e576.png)
+
+The image above shows the hour-glass shaped CNN I built, I built this cnn firstly using:
+Optimizer: Adam
+lrate= 0.01
+batch_size = 32
+epoch = 25
+this produced an accuracy of 11.35%
+
+Secondly, 
+Optimizer: SDG
+lrate= 0.09
+batch_size = 120
+epoch = 10
+this produced an accuracy of 11.35%
+
+Finally, 
+Optimizer: RMSprop
+lrate= 0.011
+batch_size = 85
+epoch = 12
+this produced an accuracy of 11.35%
+
