@@ -37,12 +37,23 @@ ANSWER: The learning rate controls how qucikly the model adapts to the problem. 
 0.02 which also produced an accuracy of 10%
 0.1 which interestingly produced an accuracy of 10%
 
+I cannot conclude on which learning rate performed the best because they all gave the same accuracy levels. 
+
 
 2. What is the effect of batch size on the training process? Which performed best?
 
+Answer: Batch size specifies how many samples must be processed before the internal model parameters are updated. 
+I again tried three different batch sizes:
+32 which produced an accuracy of 10%
+50 which also produced an accuracy of 10%
+100 which interestingly produced an accuracy of 10%
+I found it surprising my models produced the same accuracy regardless of the batch size I chose and hence made it difficult to conlucde on the best batch size as in the case of the learning rate.
 
-5. Try different hyperparameters to obtain the best accuracy on the test set. What is your
+3. Try different hyperparameters to obtain the best accuracy on the test set. What is your
 best performance and what were the hyperparameters?
+
+
+
 4. Implement an equivalent feed forward network for the same task with each hidden layer
 containing the same number of neurons as the number of filters in each convolution layer. Use the ‘Adam’ optimizer to train your network on the CIFAR-10 dataset for a fixed set of 25 epochs. Compare its performance with your LeNet implementation based on the following questions:
 a. What is its performance?
