@@ -65,3 +65,4 @@ implementation? Are they worth it?
 
 ANSWER: There are 62,006 parameters compared to 10 parameters in the LeNet model. It was not worth building the feedforward network because they all produced the same results. 
 
+## Question 2
